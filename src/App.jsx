@@ -1,17 +1,9 @@
 import './App.css'
-import Button from './Components/Button/Button'
+import ToDoList from './ToDoList.jsx'
 
 function App() {
-  let message = "message"
-  const handleonClick = (text) => {
-    alert(text)
-    message = text
-  }
-
   return (
-    <>
-      <Button text = "click" onClick={() => handleonClick("hello")}/>
-    </>
+   <ToDoList/>
   )
 }
 
